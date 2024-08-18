@@ -1603,7 +1603,6 @@ shop_hardware_inner1:
 	WAIT 0
 
 	IF IS_PLAYER_PLAYING player1
-
 		IF IS_PLAYER_IN_ZONE player1 BEACH2
 
 			IF LOCATE_PLAYER_ANY_MEANS_3D player1 hard1X hard1Y hard1Z 35.0 35.0 30.0 FALSE
