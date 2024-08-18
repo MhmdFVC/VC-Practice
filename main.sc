@@ -1451,6 +1451,48 @@ finale_mission1_loop_inner:
 GOTO finale_mission1_loop_inner
 }
 
+// The Party (Taxi IP)
+{
+lawyer_mission1_loop:
+SCRIPT_NAME LAW1
+lawyer_mission1_loop_inner:
+WAIT mission_trigger_wait_time
+	IF IS_PLAYER_PLAYING player1
+		IF LOCATE_PLAYER_ON_FOOT_3D player1 -1146.712646 -1283.178223 14.873811 2.0 2.0 2.0 FALSE
+			IF flag_player_on_mission = 0
+				IF CAN_PLAYER_START_MISSION player1
+					selecting = 0
+					GOSUB lawyer_script_cut
+					GOSUB make_player_safe
+					PRINT_BIG ( LAW_1 ) 15000 2 //"Lawyer mission 1"
+					GOSUB get_fading_status
+					LOAD_AND_LAUNCH_MISSION theparty.sc
+					cheat_the_party_taxi_ip_mission_loop:
+					WAIT 300
+					IF LOCATE_PLAYER_ON_FOOT_3D player1 119.132759 -826.894165 10.461818 2.0 2.0 2.0 FALSE
+						IF IS_PLAYER_PLAYING player1
+							flag_player_on_mission = 0
+							SET_PLAYER_COORDINATES player1 -226.785309 -1359.875244 7.852009
+							SET_PLAYER_HEADING player1 270.0
+							REQUEST_MODEL KAUFMAN
+							CREATE_CAR KAUFMAN -236.785309 -1359.875244 7.852009 party_taxi
+							SET_CAR_HEADING party_taxi 90.0
+							UNDRESS_CHAR scplayer player9
+							LOAD_ALL_MODELS_NOW
+							IF NOT IS_CHAR_DEAD scplayer
+								DRESS_CHAR scplayer
+							ENDIF
+						ENDIF
+					ELSE
+						GOTO cheat_the_party_taxi_ip_mission_loop
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+GOTO lawyer_mission1_loop_inner
+}
+
 // Taxi driver
 {
 taxi_mission1_loop:
