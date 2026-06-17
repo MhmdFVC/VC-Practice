@@ -118,6 +118,7 @@ WHILE LOCATE_PLAYER_ANY_MEANS_2D player1 -1147.4 -1271.25 27.0 21.75 FALSE
         GIVE_WEAPON_TO_PLAYER player1 WEAPONTYPE_M4 1
         GOTO mission_cleanup2
     ENDIF
+    
 // The Party Taxi IP
     IF LOCATE_PLAYER_ON_FOOT_3D player1 -1146.712646 -1283.178223 14.873811 1.5 1.5 1.5 FALSE
         GOTO mission_cleanup2
