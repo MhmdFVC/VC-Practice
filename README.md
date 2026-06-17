@@ -40,8 +40,8 @@ You teleport to the jetty behind the mansion, then teleport again because Tommy 
 A VCN maverick is also spawned for your practicing convenience.
 
 This practice item has special controls (on foot/in vehicle):
-	- Pressing crouch/horn will fix/unfix the camera. Useful for seeing where you are.
-	- Pressing look back/sub-mission will bail you back to the practice area.
+- Pressing crouch/horn will fix/unfix the camera. Useful for seeing where you are.
+- Pressing look back/sub-mission will bail you back to the practice area.
 
 #### 2. Back Alley Brawl end cutscene movement ---
 You immediately go into the final cutscene. You are also given a pistol and 2 stars for practicing convenience. If you choose not to restart your game to reset the alley cop car, you can still redo this (and the hotel cutscene) as much as you'd like. You will not be thrown back to the practice area unless you die or get busted.
@@ -108,13 +108,13 @@ When this "practice mode" is enabled, USJs' completion status will not be taken 
 Regardless of whether practice mode is enabled, a sound will play when you have hit the trigger zone. I mean, it *is* a PRACTICE SCM, so even with practice mode off I imagine it will be a useful reference when doing "serious" practice without the coronas.
 
 If you are unfamiliar with USJ mechanics:
-	- You must be in a car or motorbike; flying vehicles and boats do not trigger USJs
-	- Your speed must be greater than 25 speed units (mostly meaningless, but know that there is a speed minimum)
-	- You must be airborne to trigger a USJ
-	- You must be within a 3.25 unit radius of a jump's trigger point to trigger it; this is shown using the small filled-in coronas
-	- Once the slow-mo has been activated, you must enter within a 10 unit radius of that jump's target point; this is shown using the large hollow coronas
-	- After hitting the target zone, you will get the USJ completion no matter what happens. You can fall off, jump off, die, savewarp, hit the ground normally, whatever. It will count regardless.
-	- The slow-mo ends 1 real second after you are no longer airborne (e.g. if you hit anything) or exit your vehicle. Even if you hit the trigger zone within this 1 second, the USJ will not count.
+- You must be in a car or motorbike; flying vehicles and boats do not trigger USJs
+- Your speed must be greater than 25 speed units (mostly meaningless, but know that there is a speed minimum)
+- You must be airborne to trigger a USJ
+- You must be within a 3.25 unit radius of a jump's trigger point to trigger it; this is shown using the small filled-in coronas
+- Once the slow-mo has been activated, you must enter within a 10 unit radius of that jump's target point; this is shown using the large hollow coronas
+- After hitting the target zone, you will get the USJ completion no matter what happens. You can fall off, jump off, die, savewarp, hit the ground normally, whatever. It will count regardless.
+- The slow-mo ends 1 real second after you are no longer airborne (e.g. if you hit anything) or exit your vehicle. Even if you hit the trigger zone within this 1 second, the USJ will not count.
 
 That's the gist of how USJs work.
 
