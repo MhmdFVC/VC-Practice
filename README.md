@@ -15,7 +15,7 @@ The practice items in counterclockwise order are:
 
 1. Squalo ------------------------- Supply and Demand end cutscene movement practice.
 2. White Infernus with phone ------ Back Alley Brawl end cutscene movement practice.
-3. Spotlight with package --------- G-Spotlight end cutscene movement practice
+3. Spotlight with package --------- G-Spotlight end cutscene movement practice.
 4. Cheetah/PCJ with asset money --- Hit the Courier om0 marker jump practice.
 5. Lance in a helicopter ---------- Phnom Penh '86 practice (skips the first bit).
 6. Phil atop an RC helicopter ----- Demolition Man instapass practice.
@@ -28,6 +28,8 @@ Beyond this area is a second area (behind a few gates) with more stuff. Just go 
 
 11. Comet ------------------------- Four Iron snipe practice.
 12. Black Washington -------------- All Hands on Deck (starting from bridge barricade).
+13. Kaufman Cab ------------------- Taxi Driver instapass w/ The Party practice.
+14. BF Injection ------------------ The Chase steal practice + end cutscene drive practice.
 
 Practice features that are not apparent include:
 	- USJ practice - coronas for trigger and target zones plus a sound effect if you hit the target
@@ -101,6 +103,16 @@ The main reason I added this was to make it easier to practice the death strat t
 - Calls are enabled, and two calls will be in queue: the Leo call and the COATCI call. The second one is the actual final call taken on this mission in both AM and 100%, so time this to get your cutscene movement. The leo call obviously is not there for actual runs, but having another call to take first as filler is convenient, and that call does the trick.
 
 
+--- 13. Taxi Driver IP w/ The Party ---
+You will be teleported to the pier with a Kaufman cab placed in the marker for the yacht cutscene.
+
+
+--- 14. The Chase steal practice ---
+Enter the pink glow in front of the BF injection to start The Chase. After skipping the cutscene you are warped to the end of the foot chase, and the traitor is about to jump off the roof. Be ready on your clothes replay and practice stealing the BF injection, or any backups you'd like. When you leave the area or fail the mission, you will return to the practice area.
+
+
+--- 15. The Chase end cutscene drive ---
+Additionally you can practice the end cutscene drive for The Chase. Enter the BF injection to be warped to Prawn Island and placed in a heavy+strong BF injection, simply drive to the usual mission end zone and use a clothes replay to practice the drive to the bridge. During this practice, the barrier to the second island is restored. You must be in the BF injection for the cutscene to trigger. Leaving the BF injection will mark it with a blip, and blowing it up will explode your head and return you to the practice area. After passing the mission, there is an 8 second wait before teleporting you back to the practice area. Use this time to practice driving into the water.
 
 
 --- USJs ---

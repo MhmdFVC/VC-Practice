@@ -2243,6 +2243,7 @@ START_NEW_SCRIPT printers_save_loop		// Printworks save marker
 START_NEW_SCRIPT taxi_mission1_loop 	// Taxi Driver
 START_NEW_SCRIPT general_mission5_loop  // All Hands On Deck!
 START_NEW_SCRIPT lawyer_mission1_loop  	// The Party
+START_NEW_SCRIPT baron_mission1_loop	// The Chase
 
 // Property buys
 START_NEW_SCRIPT print_buy_loop

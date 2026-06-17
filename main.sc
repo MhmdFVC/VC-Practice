@@ -1260,6 +1260,29 @@ WAIT mission_trigger_wait_time
 GOTO general_mission3_loop_inner
 } 
 
+// The Chase
+{
+baron_mission1_loop:
+SCRIPT_NAME BAR1
+baron_mission1_loop_inner:
+WAIT mission_trigger_wait_time
+	IF IS_PLAYER_PLAYING player1
+		IF LOCATE_PLAYER_ON_FOOT_3D player1 -1145.234131 -1279.079590 14.872563 2.0 2.0 2.0 FALSE
+			IF flag_player_on_mission = 0
+				IF CAN_PLAYER_START_MISSION player1
+					selecting = 0
+					GOSUB baron_script_cut
+					GOSUB make_player_safe
+					PRINT_BIG (COK_1) 15000 2 //"baron mission 1"
+					GOSUB get_fading_status
+					LOAD_AND_LAUNCH_MISSION baron1.sc
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+GOTO baron_mission1_loop_inner
+}
+
 // Phnom Penh '86
 {
 baron_mission2_loop:
